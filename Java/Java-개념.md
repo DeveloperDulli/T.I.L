@@ -30,4 +30,4 @@ Java Source Code → Java Compiler → Java Byte Code → JVM 에 의해 재컴�
 
 ## Java 소스코드 기본구조
 
-<img src="Basic code.PNG">
+<img src="https://github.com/DeveloperDulli/T.I.L/blob/master/img/Basic%20code.png">
