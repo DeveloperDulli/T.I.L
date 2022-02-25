@@ -5,11 +5,12 @@
 변수: 메모리에 하나의 값을 저장할 수 있는 방과 같은 기억 공간
 
 자료형
+
 <img src="https://github.com/DeveloperDulli/T.I.L/blob/master/Java/img/Data%20Type.png">
 
 2. 형변환 (Casting)
-   
-   형변환(Casting) : 데이터의 자료형을 변환하는 것
+ 
+형변환(Casting) : 데이터의 자료형을 변환하는 것
 * 개발자가 데이터의 타입의 범위를 예측하지 못했을 때
 
 * 개발자가 원하는 대로 데이터 타입을 사용하기 위해서 강제적으로 형변환
