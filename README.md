@@ -10,5 +10,5 @@ Today I Learned
 
 ## Java
 
-* [Java 기초](https://github.com/DeveloperDulli/T.I.L/blob/master/Day01/Java-%EA%B0%9C%EB%85%90.md)
+* [Java 기초](https://github.com/DeveloperDulli/T.I.L/blob/master/Java/Java-%EA%B0%9C%EB%85%90.md)
 
