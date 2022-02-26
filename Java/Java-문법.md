@@ -1,10 +1,10 @@
 # Java 문법
 
-1. 변수와 자료형
+1. 변수와 자료형 (Variable & Data Type)
 
 변수: 메모리에 하나의 값을 저장할 수 있는 방과 같은 기억 공간
 
-자료형
+기본 자료형
 
 <img src="https://github.com/DeveloperDulli/T.I.L/blob/master/Java/img/Data%20Type.png">
 
