@@ -63,4 +63,5 @@
   * 자바에서는 배열 공간은 자유 메모리 영역인 Heap 영역에 할당하도록 지정되어 있으며, 배열변수는 할당된 배열공간의 주소를 저장하며, 배열공간의 주소를 이용해 인덱스(순번, index)를 참조하는 방식으로 값들을 처리하도록 정해두었다.
 
 ex) 
+
 <img src="https://github.com/DeveloperDulli/T.I.L/blob/master/Java/img/Array.png">
