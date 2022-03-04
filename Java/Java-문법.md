@@ -34,12 +34,13 @@
 
 * 조건문 : if - else문, switch 문
 
-  * if - else문
+* if - else문
 
 <img src="https://github.com/DeveloperDulli/T.I.L/blob/master/Java/img/if%20-%20else.png">
 
-  * switch문
+* switch문
 
+<img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/Java/img/switch.png">
 
 * 반복문 (Loop문)
   * 문장들을 반복해서 여러 번 수행되게 할 때 사용하는 구문
