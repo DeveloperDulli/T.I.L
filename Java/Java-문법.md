@@ -59,14 +59,20 @@
 
 <img src="https://github.com/DeveloperDulli/T.I.L/blob/master/Java/img/while.png">
 
-* 중첩 반복문 : for문 안에 for문 또는 while문 안에 while문, for문 안에 while문, while문 안에 for문 등 반복문 종류에 상관없이 다양하게 중첩 가능
-* break : 반복문의 실행 흐름에 변화를 줄 수 있는 문장으로, if문과 함께 사용되며 break문을 만나면 해당 반복문이 강제 종료
-* conntinue : break문과 마찬가지로 반복문의 흐름에 변화를 주는 문장, 반복할 내용의 중간 생략용으로 이용할 수 있다.
-
 * do ~ while문
   * do ( )안의 내용을 일단 한번 실행한 다음, 아래에 있는 while 조건식의 결과에 따라 블록 { } 안의 내용에 대한 반복 실행을 결정하는 반복문이다.
 
 <img src ="https://github.com/DeveloperDulli/T.I.L/blob/master/Java/img/do%20while.png">
+
+* 중첩 반복문 : for문 안에 for문 또는 while문 안에 while문, for문 안에 while문, while문 안에 for문 등 반복문 종류에 상관없이 다양하게 중첩 가능
+* break : 반복문의 실행 흐름에 변화를 줄 수 있는 문장으로, if문과 함께 사용되며 break문을 만나면 해당 반복문이 강제 종료
+* conntinue : break문과 마찬가지로 반복문의 흐름에 변화를 주는 문장, 반복할 내용의 중간 생략용으로 이용할 수 있다.
+
+* Labeled break, continue : break와 continue가 한 개의 반복문만 탈출하는 특성을 보완하기 위해 나온 구문으로 for, while, do~while문에 사용할 수 있으며, 한 번에 여러 단계의 중첩 반복문을 빠져나가게 할 때 이용할 수 있다.
+
+사용법
+
+<img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/Java/img/Labeled.png">
 
 5. 기본자료형 배열
 
