@@ -91,3 +91,8 @@
 ex)
 
 <img src="https://github.com/DeveloperDulli/T.I.L/blob/master/Java/img/Array.png">
+
+* 배열의 초기화 : 배열 공간 할당과 동시에 초기값을 기록하는 것을 말하며, 배열 초기화시에는 배열의 길이를 따로 지정하지 않고 초기화에 사용되는 값의 개수가 자동 배열의 길이로 처리된다.
+
+<img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/Java/img/Array%201.png">
+
