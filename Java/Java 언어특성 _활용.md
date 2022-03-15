@@ -65,4 +65,10 @@
 <img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/Java/img/default.png">
 
 
+## 클래스 구조
+
+* 클래스는 헤더(Header) 시그니처(Signature)와 클래스 바디(Body)로 구성
+* 클래스 해더 시그니처는 클래스의 이름과 종류를 지정하는 부분이고, 클래스 바디 안에는 클래스의 멤버들이 정의되는 부분
+
+
 
