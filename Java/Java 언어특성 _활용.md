@@ -124,3 +124,23 @@
 * 자식(sub) 클래스 : 상속 받는 클래스를 후손/하위/자식/파생 클래스하고 한다.
 * 오버라이딩(Overriding) : 메소드 재정의라고 하고, 부모 클래스로부터 상속받은 메소드를 자식 클래스에서 다시 정의하는 것
 
+## final 예약어
+
+* final : 더 이상 확장이 불가능함을 알리는 예약어로, 지역변수, 필드, 메소드, 클래스에 붙일 수 있으며 각각 의미하는 바가 다르다.
+
+* final 변수 
+  * 변수에 기록된 값을 변경할 수 없도록 한다. 즉, 변수를 상수화시킨다.
+  * 상수화시키면 초기값도 변경할 수 없으므로, 반드시 선언과 함께 초기화도 하여야 한다.
+
+<img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/Java/img/final_variable.png">
+
+* final 메소드
+  * 상속받은 후손 클래스에서 부모의 메소드를 오버라이딩할 수 없게 한다.
+
+<img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/Java/img/final_method.png">
+
+* final 클래스
+  * 종단 클래스라고 하며, 더 이상 상속에 사용할 수 없는 클래스라고 지정할 때 사용한다.
+  * 즉, 부모 클래스가 될 수 없는 후손 클래스를 파생시킬 수 없는 클래스라는 의미가 된다.
+
+<img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/Java/img/final_class.png">
