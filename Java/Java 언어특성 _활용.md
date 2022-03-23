@@ -144,3 +144,10 @@
   * 즉, 부모 클래스가 될 수 없는 후손 클래스를 파생시킬 수 없는 클래스라는 의미가 된다.
 
 <img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/Java/img/final_class.png">
+
+
+## 다형성
+
+* 다형성(polymorphism) 
+  * 여러가지 타입을 한가지 타입으로 처리할 수 있는 기술
+  * 부모클래스 타입의 참조변수로 자식클래스의 인스턴스를 참조할 수 있다.
