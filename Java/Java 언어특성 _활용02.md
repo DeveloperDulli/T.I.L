@@ -13,7 +13,7 @@
 
 * 클래스로서의 객체 생성은 못하지만 새로운 클래스를 작성할 때 부모 클래스로 이용되며 새 클래스 작성을 위한 템플릿이 되어 상속 받은 클래스들의 규칙을 주는 용도로 사용 가능
 
-<img src = "">
+<img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/Java/img/Abstract.png">
 
 
 
