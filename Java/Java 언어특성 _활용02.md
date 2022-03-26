@@ -25,6 +25,31 @@
   
   * ex) 접근제한자 abstract 리턴타입 함수이름( );
 
+##### 인터페이스 (interface)
+ * 추상메소드로만 구성된 추상클래스를 인터페이스라고 구분하였으며, 추상 클래스보다 추상화 정도를 높여 일반 메소드와 멤버변수를 멤버로 가질 수 없게 하였다.
+ * 추가로 상수 (public static final 필드)만 멤버로 가진다.
+ * 인터페이스는 다중 상속에 제한이 없기 때문에 여러 추상화 메소드를 인터페이스로 작성함으로써 코드의 강제성을 부여할 수 있고, 여러 클래스에서 사용되는 동일한 상수일 경우 인터페이스에 정의한 후 해당 상수를 공유할 수 있게하면 중복을 줄일 수 있다.
+
+* 인터페이스 작성
+  * 추상 메소드를 작성하려면 abstract 키워드를 표시해야 하지만 인터페이스 내부에는 모든 메소드가 추상 메소드이므로 public abstract 키워드를 생략 가능
+
+<img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/Java/img/interface01.png">
+
+* 인터페이스 상속
+  * 클래스의 상속은 단일 상속만 가능하지만, 인터페이스는 다중 상속이 가능
+
+<img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/Java/img/interface02.png">
+
+* 인터페이스 구현 (implement)
+  * 인터페이스가 가진 추상 메소드를 구현하려면 'implements' 키워드를 사용해서 후손 클래스가 인터페이스를 상속을 받아야 한다.
+
+<img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/Java/img/interface03.png">
+
+* 인터페이스 장점
+  * 인터페이스를 이용하면 정의해야 하는 메소드를 표준화하고 강제화할 수 있다.
+  * 메소드화 시켜야 하는 기능을 분류해야 하는 고민없이 구현만 하면 되므로 개발시간을 단축시킬 수 있다.
+  * 일반 클래스 상속을 이용해서 자식 클래스들의 관계를 맺는 것보다 간편하게 관계를 맺을 수 있다.
+
 
 
 
