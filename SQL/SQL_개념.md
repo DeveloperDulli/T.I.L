@@ -70,4 +70,4 @@
 
 ##### 오라클의 기본 데이터형
 
-<img src = "">
+<img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/SQL/img/sql_data.png">
