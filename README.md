@@ -5,7 +5,6 @@ Today I Learned
 
 :point_right:작성 규칙
 
-* 파일명은 영어로 작성
 * 다시 봐도 알아보기 쉽게 기록
 
 ## Java
