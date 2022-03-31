@@ -67,6 +67,7 @@
 * instr (컬럼/문자열, 찾고자 하는 문자(열), 시작 인덱스, 검색된 문자(열)의 순번) : 특정 문자열에서 찾고자 하는 문자열을 찾아주는 함수
 
 ex)
+
 <img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/SQL/img/sql_instr.png">
 
 * lpad /rpad(대상이 되는 컬럼/문자열, 반환할 길이, 덧붙일 문자)
@@ -74,6 +75,7 @@ ex)
   * 주어진 컬럼/문자열을 대상으로 해서 임의의 문자열을 왼쪽/오른쪽에 덧붙여서 길이 N의 문자열을 반환하는 함
 
 ex)   
+
 <img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/SQL/img/sql_rpad.png"> 
 
 * ltrim/rtrim (대상이 되는 컬럼/ 문자열, 제거하고 싶은 문자(열))
@@ -81,6 +83,7 @@ ex)
   * 주어진 컬럼/문자열을 대상으로 제거하고 싶은 문자를 제거한 뒤 나머지를 반환하는 함
 
 ex)    
+
 <img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/SQL/img/sql_ltrim.png">
 
 * substr (대상이 되는 컬럼/문자열, 문자열을 잘라낼 위치, 반환할 문자의 개수)
@@ -88,4 +91,5 @@ ex)
   * 대상이 되는 컬럼/문자열에서 시작위치로부터 제시한 문자의 개수만큼 문자(열)을 잘라서 반환해주는 함수
 
 ex)
+
 <img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/SQL/img/sql_substr.png">
