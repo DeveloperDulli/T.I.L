@@ -93,3 +93,32 @@ ex)
 ex)
 
 <img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/SQL/img/sql_substr.png">
+
+* concat (대상문자열1, 대상문자열2) 
+  * 두개의 문자열을 하나로 합친 후 반환해주는 함수
+
+ex)
+
+<img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/SQL/img/sql_concat.png">
+
+* lower(대상 문자열/컬럼) / upper(대상 문자열/컬럼) / initcap(대상 문자열/컬럼)
+  * lower : 대상 문자열을 모두 소문자로 변환해주는 함수
+  * upper : 대상 문자열을 모두 대문자로 변환해주는 함수
+  * initcap : 단어의 첫 글자만 대문자로 변환해주는 함수
+
+ex)
+
+<img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/SQL/img/sql_lower_upper_initcap.png">
+
+* replace(대상이 되는 문자열/컬럼, 변경대상이 되는 문자(열), 변경할 문자(열))
+  * 대상이 되는 문자열/컬럼을 기준으로 변경대상이 되는 문자(열)을 찾아서 변경할 문자(열)로 바꿔주는 함수
+
+<img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/SQL/img/sql_replace.png">
+
+##### 숫자형 함수
+
+* abs(숫자) : 인자로 전달받은 숫자의 절대값을 반환해주는 함수
+* mod(숫자, 나눌 값) : 인자로 전달받은 숫자를 나눌 값으로 나눠서 나머지를 반환해주는 함수
+* round(숫자, 소수점 인덱스 위치) : 인자로 받은 숫자를 지정한 위치 다음 자리수에서 반올림하여 반환해주는 함수
+
+<img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/SQL/img/sql_lower_upper_initcap.png">
