@@ -134,3 +134,27 @@ ex)
 * ceil (숫자) : 인자로 받은 숫자의 소수점 자리를 올림한 후 버리고 반환해주는 함수
 
 <img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/SQL/img/sql_floor_trunc_ceil.png">
+
+------------------------------------------------------------------------------------------------------------------------------
+
+##### 날씨 함수
+
+* sysdate : 시스템에 저장되어있는 현재 날짜 (시간포함) 반환
+* current_date : session(접속) timezone에 따라 현재 날짜(시간) 반환
+  * ex) select sysdate from dual;
+  * ex) select current_date from dual;
+
+* months_between (날짜형, 날짜형) : 두 날짜 사이의 개월 수 차이를 반환해주는 함수
+* add_months (기준 날짜, 더할 개월 수) : 첫 번째 인자값인 날짜를 기준으로 해서 두 번째 인자값을 더해서 반환해주는 함수
+  * ex) select add_months(sysdate, 1) from dual; -> 현재 날짜보다 1개월 더한값
+  * ex) select add_months(sysdate, -1) from dual; -> 현재 날짜보다 1개월 뺀값
+
+* next_day (기준 날짜, 요일/숫자) : 기준 날짜를 기준으로 해서 오른족에 해당하는 가장 가까운 날짜를 반환해주는 함수
+  * 요일의 형식 : '월' 혹은 '월요일'
+  * 숫자의 의미 : 1 = 일요일 ~~ 7 = 토요일
+
+* last_day (기준 날짜) : 기준 날짜의 바탕으로 해서 해당 날짜가 속한 달의 마지막 날을 반환해주는 함수
+* extract (year/month/day from date(기준날짜)) : 기준날짜로부터 년/월/일을 추출해서 반환해주는 함수
+  * ex) select extract (year from sysdate) from dual; : 현재날짜의 '년도' 반환
+  * ex) select extract (month from sysdate) from dual; : 현재날짜의 '월' 반환
+  * ex) select extract (day from sysdate) from dual; : 현재날짜의 '일수' 반환
