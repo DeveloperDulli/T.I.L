@@ -158,3 +158,38 @@ ex)
   * ex) select extract (year from sysdate) from dual; : 현재날짜의 '년도' 반환
   * ex) select extract (month from sysdate) from dual; : 현재날짜의 '월' 반환
   * ex) select extract (day from sysdate) from dual; : 현재날짜의 '일수' 반환
+
+------------------------------------------------------------------------------------------------------------------------------
+
+##### 형 변환
+
+* to_char (date/number, formate) : 날짜 혹은 숫자를 특정한 형식의 문자형으로 변환해주는 함수
+  * 년 : YY / YYYY
+  * 월 : MM
+  * 일 : DD
+  * ex ) select to_char(sysdate, 'YYYY-MM-DD') from dual; -- YYYY-MM-DD
+  * ex ) select to_char(sysdate, 'YYYY/MM/DD') from dual; -- YYYY/MM/DD
+
+* DAY : x요일
+  * ex) select to_char(sysdate, 'YY/MM/DD/DAY') from dual; --  YY/MM/DD/x요일
+* DY : x(요일)
+  * ex) select to_char(sysdate, 'YY/MM/DD/DY') from dual; --  YY/MM/DD/x
+* MONTH : x월
+  * ex) select to_char(sysdate, 'YY/MONTH/DD') from dual; --  YY/MM월/DD
+* HH MI SS : 시분초
+  * ex) select to_char(sysdate, 'HH:MI:SS') from dual; --  HH:MI:SS
+* PM/AM : 오후/오전
+  * ex) select to_char(sysdate, 'PMHH:MI:SS') from dual; --  오후HH:MI:SS
+* HH24 : 24시간을 기준으로 표기
+  * ex) select to_char(sysdate, 'HH24:MI:SS') from dual; --  HH:MI:SS (24시간 기준으로 표기되기 때문에 오후1시면 13시로 표기됨)
+
+* to_char (대상 숫자,  )
+  * 숫자 -> 문자형
+  * 123456789 -> 0이나 9를 이용해 문자형으로 변환
+  * 9 : 지정해준 형식보다 짧은 숫자가 들어온다면 대상이 되는 숫자 길이에 맞춰서 결과값을 반환
+  * 0 : 지정해준 형식보다 짧은 숫자가 들어온다면 형식에 맞춰서 길이를 지정하고 남는 자리수는 0으로 채워줌
+
+<img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/SQL/img/sql_to_char.png">
+
+* 통화 표시 : L (local)
+  * ex) select to_char(12345,'L999,999') from dual; -- ￦12,345
