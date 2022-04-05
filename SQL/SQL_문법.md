@@ -191,5 +191,17 @@ ex)
 
 <img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/SQL/img/sql_to_char.png">
 
+* to_date (숫자/문자, 형식) : 숫자형 혹은 문자형 데이트를 데이트(날짜) 타입으로 바꿔주는 함수
+
+<img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/SQL/img/sql_to_date.png">
+
+* to_number (문자형, 형식) : 문자형을 숫자형으로 반환해주는 함수
+
+<img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/SQL/img/sql_to_number.png">
+
 * 통화 표시 : L (local)
   * ex) select to_char(12345,'L999,999') from dual; -- ￦12,345
+
+* 묵시적 형변환
+  * 오라클에서는 어느 정도 자동적으로 자료형을 유추해서 형변환
+  * 하지만 묵시적 형변환에 의지하면 안되고 정확한 연산을 위해서는 정확한 자료형으로 변환한 후에 연산
