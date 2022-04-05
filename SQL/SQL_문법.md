@@ -127,11 +127,15 @@ ex)
 * mod(숫자, 나눌 값) : 인자로 전달받은 숫자를 나눌 값으로 나눠서 나머지를 반환해주는 함수
 * round(숫자, 소수점 인덱스 위치) : 인자로 받은 숫자를 지정한 위치 다음 자리수에서 반올림하여 반환해주는 함수
 
+ex)
+
 <img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/SQL/img/sql_lower_upper_initcap.png">
 
 * floor (숫자, 소수점 인덱스 위치) :  인자로 받은 숫자를 지정한 위치 다음 자리수에서 반올림하여 반환해주는 함수
 * trunc (숫자, 소수점 위치) : 인자로 받은 숫자를 지정한 위치까지 잘라서 반환해주는 함수
 * ceil (숫자) : 인자로 받은 숫자의 소수점 자리를 올림한 후 버리고 반환해주는 함수
+
+ex)
 
 <img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/SQL/img/sql_floor_trunc_ceil.png">
 
@@ -189,13 +193,19 @@ ex)
   * 9 : 지정해준 형식보다 짧은 숫자가 들어온다면 대상이 되는 숫자 길이에 맞춰서 결과값을 반환
   * 0 : 지정해준 형식보다 짧은 숫자가 들어온다면 형식에 맞춰서 길이를 지정하고 남는 자리수는 0으로 채워줌
 
+ex)
+
 <img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/SQL/img/sql_to_char.png">
 
 * to_date (숫자/문자, 형식) : 숫자형 혹은 문자형 데이트를 데이트(날짜) 타입으로 바꿔주는 함수
 
+ex)
+
 <img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/SQL/img/sql_to_date.png">
 
 * to_number (문자형, 형식) : 문자형을 숫자형으로 반환해주는 함수
+
+ex)
 
 <img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/SQL/img/sql_to_number.png">
 
