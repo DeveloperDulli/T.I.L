@@ -1,5 +1,7 @@
 # :zap:T.I.L
+
 Today I Learned
+
 * 하루동안 학습한 내용이나 개발관련 경험들을 기록으로 남기기
 * 기초부터 심화까지 열심히 :punch:
 
@@ -18,3 +20,4 @@ Today I Learned
 
 * [SQL 개념](https://github.com/DeveloperDulli/T.I.L/blob/master/SQL/SQL_%EA%B0%9C%EB%85%90.md)
 * [SQL 문법](https://github.com/DeveloperDulli/T.I.L/blob/master/SQL/SQL_%EB%AC%B8%EB%B2%95.md)
+  * SQL_문법01(https://github.com/DeveloperDulli/T.I.L/blob/master/SQL/SQL_%EB%AC%B8%EB%B2%9501.md))
