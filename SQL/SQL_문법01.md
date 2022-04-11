@@ -70,9 +70,7 @@
 
 * 중복된 데이터는 출력이 안됨
 
-    ex) select 컬럼명 from 테이블 A    UNION select 컬럼명 from 테이블B;
-
-
+    ex) select 컬럼명 from 테이블 A UNION select 컬럼명 from 테이블B;
 
 ###### UNION ALL (합집합)
 
@@ -82,15 +80,11 @@
 
     ex) select 컬럼명 from 테이블A UNION ALL select 컬럼명 from 테이블B;
 
-
-
 ###### INTERSECT (교집합)
 
 * 두 테이블의 쿼리 결과 중 공통된 결과 값만 보여줌
 
     ex) select 컬럼명 from 테이블A INTERSECT select 컬럼명 from 테이블B;
-
-
 
 ###### MINUS (차집합)
 
