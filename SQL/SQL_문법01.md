@@ -130,6 +130,50 @@
 
 ---
 
+##### Top N 분석
+
+* Top N Query
+  
+  * 컬럼에서 가장 큰 n개의 값을 혹은 가장 작은 n개의 값을 요청할 때
+  
+  * 상위/하위 n개의 데이터를 추출하는 쿼리
+
+* rownum : 출력되는 select 문의 행마다 자동적으로 순위를 매겨주는 것
+  
+  * select rownum from 테이블;
+
+* row_number () over (order by 컬럼..)
+  
+  * over () 안쪽에 컬럼 순서에 따라 일단 정렬을 한 후에 순위를 매겨줌
+  
+  * 정렬 기준의 데이터에 중복값이 있다면 원래 순서대로 순위를 매긴다 (ex. 19, 29, 21..)
+  
+  * select row_number () over(orderby 컬럼명 정렬조건) from 테이블명;
+  
+  * where 절을 사용하여 나올 데이터의 개수 설정 가능
+  
+  * select row_number () over(orderby 컬럼명 정렬조건) from 테이블명 where rownum <= 원하는개수;
+
+* rank() over (order by 컬럼...)
+  
+  * over() 안에 있는 컬럼에 따라서 일단 데이터를 정렬한 후에 순위를 매김
+  
+  * 순위 매길 때 중복데이터가 있다면 같은 순위를 매기고, 같은 순위를 매긴 데이터만큼 건너뛰어 다음 순위를 매김 (ex 19, 19, 19, 22)
+  
+  * select rank() over(order by 컬럼명 정렬조건) from 테이블명;
+
+* dense_rank() over(order by 컬럼...)
+  
+  * over()안의 컬럼에 따라 정렬 후 순위를 매김.
+  
+  * 중복 데이터에 대해 같은 순위를 매기고 그 다음 순위부터는 건너뜀 없이 순차적으로 순위를 매김 (ex 19, 19, 19, 20)
+  
+  * 총 데이터의 개수와 끝순위 번호가 일치하지 않을 수 있음
+  
+  * select dese_rank() over(order by 컬럼명 정렬조건) from 테이블명;
+
+---
+
 ##### DDL (Data Definition Language)
 
 * 데이터 정의어
@@ -184,52 +228,28 @@
 
 ---
 
-##### Top N 분석
+##### DCL
 
-* Top N Query
-  
-  * 컬럼에서 가장 큰 n개의 값을 혹은 가장 작은 n개의 값을 요청할 때
-  
-  * 상위/하위 n개의 데이터를 추출하는 쿼리
-  
-  
+* 데이터 제어어
 
-* rownum : 출력되는 select 문의 행마다 자동적으로 순위를 매겨주는 것
-  
-  * select rownum from 테이블;
-  
-  
+* 데이터베이스에 관한 보안, 무결성, 복구 등 DBMS를 제어하기 위한 언어
 
-* row_number () over (order by 컬럼..)
-  
-  * over () 안쪽에 컬럼 순서에 따라 일단 정렬을 한 후에 순위를 매겨줌
-  
-  * 정렬 기준의 데이터에 중복값이 있다면 원래 순서대로 순위를 매긴다 (ex. 19, 29, 21..)
-  
-  * select row_number () over(orderby 컬럼명 정렬조건) from 테이블명;
-  
-  * where 절을 사용하여 나올 데이터의 개수 설정 가능
-  
-  * select row_number () over(orderby 컬럼명 정렬조건) from 테이블명 where rownum <= 원하는개수;
-  
-  
+* -> GRANT, REVOKE / TCL (commit, rollback)
 
-* rank() over (order by 컬럼...)
-  
-  * over() 안에 있는 컬럼에 따라서 일단 데이터를 정렬한 후에 순위를 매김
-  
-  * 순위 매길 때 중복데이터가 있다면 같은 순위를 매기고, 같은 순위를 매긴 데이터만큼 건너뛰어 다음 순위를 매김 (ex 19, 19, 19, 22)
-  
-  * select rank() over(order by 컬럼명 정렬조건) from 테이블명;
-  
-  
 
-* dense_rank() over(order by 컬럼...)
+
+* GRANT
   
-  * over()안의 컬럼에 따라 정렬 후 순위를 매김.
+  * 사용자 또는 role (resource, connect, dba) 에 대해 권한 부여
   
-  * 중복 데이터에 대해 같은 순위를 매기고 그 다음 순위부터는 건너뜀 없이 순차적으로 순위를 매김 (ex 19, 19, 19, 20)
+  * system/ 관리자 계정 접속 -> 신규 사용자 생성 -> grant 접속 권한 부여 -> 리소스 권한 부여
   
-  * 총 데이터의 개수와 끝순위 번호가 일치하지 않을 수 있음
+  * ex) grant 권한 to 사용자명;
   
-  * select dese_rank() over(order by 컬럼명 정렬조건) from 테이블명;
+  * ex) grant 권한 on 계정.테이블명 to 사용자명;
+
+* REVOKE
+  
+  * 부여된 권한을 회수 / 해제하는 명령어
+  
+  * ex) revoke 권한 on 계정.테이블명 from 사용자명;
