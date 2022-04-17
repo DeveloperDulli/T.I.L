@@ -224,8 +224,6 @@
 
 * on delete cascade -> 부모 데이터가 삭제되면 해당 데이터를 참조하고 있는 자식 데이터 역시도 함께 삭제
 
-
-
 ---
 
 ##### DCL
@@ -235,8 +233,6 @@
 * 데이터베이스에 관한 보안, 무결성, 복구 등 DBMS를 제어하기 위한 언어
 
 * -> GRANT, REVOKE / TCL (commit, rollback)
-
-
 
 * GRANT
   
@@ -253,3 +249,23 @@
   * 부여된 권한을 회수 / 해제하는 명령어
   
   * ex) revoke 권한 on 계정.테이블명 from 사용자명;
+
+
+
+---
+
+##### TCL
+
+* 트랜잭션 제어 언어
+  
+  * 트랜잭션 : 한번에 수행되어야하는 작업의 단위
+
+* -> commit, rollback
+
+* commit : 트랜잭션 작업이 정상적으로 완료되면 변경 내용을 영구적으로 저장
+
+* rollback : 트랜잭션 작업을 모두 취소하고 최근에 commit 했던 지점으로 돌아가는 것
+  
+  * savepoint <savepoint명> : 현재 트랜잭션 작업 시점에다가 이름 부여 ( 하나의 트랜잭션 안에서 구역을 나누는 것)
+  
+  * rollback to savepoint명 : 해당 savepoint로 되돌아 간다
