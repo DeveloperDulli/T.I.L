@@ -19,3 +19,12 @@
       e.printStackTrace();
     
     }
+
+* PreparedStatement 
+  
+  * 객체를 생설할 때 인자값으로 넘겨주는 sql문(쿼리문)을 미리 DBMS에 컴파일하여 올려둠.
+  - ex) String sql = "select * from 테이블명 where 컬럼명 = ?"
+  
+  - ?자리에 set되는 값을 말 그대로 값 그 자체로 들어가게 됨 (문자열 인식)
+  
+  - Statement 객체보다 preparedStatement 객체를 활요했을 때 가독성이 더 높아짐
