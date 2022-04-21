@@ -28,3 +28,17 @@
   - ?자리에 set되는 값을 말 그대로 값 그 자체로 들어가게 됨 (문자열 인식)
   
   - Statement 객체보다 preparedStatement 객체를 활요했을 때 가독성이 더 높아짐
+
+* BasicDataSource
+  
+  * DBCP 를 만들어주는 클래스
+  
+  * ex) private BasicDataSource bds = new BasicDataSource();
+  
+  * ex) public 생성자이름(){ 
+    
+       bds.setUrl("jdbc:oracle:thin:ip주소:포트번호:xe");
+       bds.setUsername("오라클계정명");
+       bds.setPassword("계정비밀번호");
+       bds.setInitialSize(커넥션 개수);
+       }
