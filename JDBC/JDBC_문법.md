@@ -42,3 +42,9 @@
        bds.setPassword("계정비밀번호");
        bds.setInitialSize(커넥션 개수);
        }
+
+* 커넥션 풀에 있는 커넥션을 꺼내서 반환해주는 메서드
+  
+  * ex) public Connection getConnection() throws Exception{
+            return bds.getConnection();
+    }
