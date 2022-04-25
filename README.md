@@ -26,10 +26,6 @@ Today I Learned
 
 * [JDBC 문법](https://github.com/DeveloperDulli/T.I.L/blob/master/JDBC/JDBC_%EB%AC%B8%EB%B2%95.md)
 
-
-
 ## WEB
 
-* [HTML](https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/HTML.md)
-
-* 
+* [HTML](https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/HTML.md) 
