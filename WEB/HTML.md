@@ -12,6 +12,6 @@
   
   * 웹에서 이뤄지는 모든 데이터 교환(클라이언트-서버)은 HTTP 통신규약을 통해 이루어진다.
 
+* Structure
 
-
-
+    <img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/HTML_img/structure.png">
