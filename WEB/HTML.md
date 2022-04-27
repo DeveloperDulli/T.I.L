@@ -16,24 +16,6 @@
 
     <img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/HTML_img/structure.png">
 
-
-
 * 하이퍼링크
-  
-  * <a> 태그를 이용하여 하이퍼링크 요소 구성
-  
-  * ex) <a href = "url경로"></a>
-  
-  * target 속성을 이용하면 새로운 탭을 열어서 이동할지, 새로운 브라우저 열어 이동할지, 현재 창에서 이동할지 속성 부여 가능
-  
-  * self 현재 페이지에서 열기
-  
-  * ex) <a href = "url 경로" target = "_self"></a>
-  
-  * blank 새로운 탭에서 열기
-  
-  * ex) <a href = "url 경로" target = "_blank"></a>
-  
-  * 같은 경로값에 있으면 폴더명 무시 가능
-  
-  * ex) <a href = "파일명"></a>
+
+<img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/HTML_img/tag.png">
