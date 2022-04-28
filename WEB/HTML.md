@@ -19,3 +19,35 @@
 * 하이퍼링크
 
 <img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/HTML_img/tag.png">
+
+
+
+##### 강조 관련 태그
+
+* h1 ~ h6
+  
+  * 제목을 표시하기 위해 사용하는 태그
+  
+  * 숫자가 작을수록 가장 중요한 제목, 클수록 덜 중요한 제
+
+* em
+  
+  * 강조하는 택스트에 사용
+  
+  * 기본 모양을 기울림꼴
+
+* strong
+  
+  * 중요한 텍스트에 사용
+  
+  * 기본 모양은 굵은 글자
+
+* b
+  
+  * 글자를 굵게 만듬
+  
+  * 의미 없이 굵게 만드는 것이 strong과의 차
+
+* underline
+  
+  * 글자 아래에 밑줄을 만
