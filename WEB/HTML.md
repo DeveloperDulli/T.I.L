@@ -79,5 +79,29 @@
 * email : 입력받은 값이 유효한 이메일 주소인지를 자동으로 검증하는 입력 필드 생성
   
   <img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/HTML_img/input.png">
+
+
+
+* checked : checked 속성을 준 태그에 기본으로 항목 선택함
+
+* radio : 여러개의 값 중 하나만 체크하고 싶을때 사용
+
+* checkbox : 여러개의 선택지에서 여러개의 선택값을 받고 싶을때 사용
+
+* select : 여러개의 옵션값을 미리 깔아두고 사용자가 선택하게끔 하는 입력방식
+
+* date : 날짜를 입력할때 사용
+
+* color : 색상을 입력할때 사용
+
+* range : 범위를 조절할때 사용
+
+* button : 버튼을 생성할때 사용
+
+* text : 일반적으로 한 줄짜리 입력을 받을때 사용
+
+* textarea : 여러 줄의 텍스트 입력값을 받을 때 사용 (width : 넓이, height : 높이, 
   
-   
+  resize : 사이즈 조절)
+
+<img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/HTML_img/input02.png">
