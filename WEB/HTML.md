@@ -90,7 +90,7 @@
 
 * email : 입력받은 값이 유효한 이메일 주소인지를 자동으로 검증하는 입력 필드 생성
   
-  <img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/HTML_img/input.png">
+  <img title="" src="https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/HTML_img/input01.png" alt="">
 
 * checked : checked 속성을 준 태그에 기본으로 항목 선택함
 
