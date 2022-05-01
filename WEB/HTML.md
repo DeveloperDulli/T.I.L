@@ -62,6 +62,18 @@
   
   * ex) span 태그 등등
 
+##### list
+
+* ul 태그 : 순서가 없는 리스트
+
+* ol 태그 : 순서가 있는 리스트
+
+* type 속성 : 숫자, 아라비아 숫자, 알파벳 순서를 매길지 결정해줄 수 이씀
+
+* start : 시작점 지정 가능
+
+<img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/HTML_img/list.png">
+
 ##### Input 태그
 
 * input 태그 : 사용자의 입력값을 받기 위해 사용하는 요소
@@ -79,8 +91,6 @@
 * email : 입력받은 값이 유효한 이메일 주소인지를 자동으로 검증하는 입력 필드 생성
   
   <img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/HTML_img/input.png">
-
-
 
 * checked : checked 속성을 준 태그에 기본으로 항목 선택함
 
