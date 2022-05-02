@@ -115,3 +115,7 @@
   resize : 사이즈 조절)
 
 <img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/HTML_img/input02.png">
+
+##### table 구성
+
+<img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/HTML_img/table.png">
