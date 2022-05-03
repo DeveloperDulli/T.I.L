@@ -30,4 +30,3 @@ Today I Learned
 
 * [HTML](https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/HTML.md) 
 * [css](https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/CSS.md)
-* 
