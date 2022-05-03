@@ -29,4 +29,4 @@ Today I Learned
 ## WEB
 
 * [HTML](https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/HTML.md) 
-* [css](https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/CSS.md)
+* [CSS](https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/CSS.md)
