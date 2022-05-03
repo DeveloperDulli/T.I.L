@@ -119,3 +119,41 @@
 ##### table 구성
 
 <img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/HTML_img/table.png">
+
+##### display 속성
+
+* block 속성(16px margin) / inline
+
+* block : 요소의 전후 줄바꿈을 한 후에 무조건 한 줄을 차지하는 속성
+  
+  * ex) p태그, div 태그
+
+* inline : 해당 태그가 가지고 있는 컨텐츠의 크기만큼만 자리를 차지
+  
+  * ex) span 태그
+
+
+
+##### form
+
+* form : 사용자에게 입력받아 그 데이터를 서버로 전송하고자 할 때 사용
+
+* form action = "요청을 보낼 주소" method = "get/post 데이터를 전송하는 방식"
+  
+  * 사용자의 입력을 받을 수 있는 요소들이 옴
+  
+  * form 태그 안쪽에 서버로 전송하고 싶은 용도의 태그들은 반드시 name 이라는 속성을 가지고 있어야 함
+
+* 사용방법
+  
+  * form을 서버에 제출하기 위해 submit을 해줘야함
+  
+  * 1. submit 타입의 버튼을 사용
+    
+    2. submit() 함수를 사용하거나,
+    
+    3. method 를 get 방식으로하면 주소창에 값이 표시된다.
+    
+    4. method를 post 방식으로 하면 주소창에 값이 표시되지 않는다.
+
+<img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/HTML_img/form.png">
