@@ -34,4 +34,18 @@
   
   * 선언순서 : 하나의 요소에 대해서 여러개의 스타일 속성을 부여를 했을때 가장 마지막에 부여된 속성이 최우선순위를 지님
 
+* 선택자 (Selector)
+  
+  * 전체 선택자(*) : 모든 html 태그를 선택
+  
+  * 태그 선택자 : 태그의 이름을 통해서 요소를 선택
+  
+  * id 선택자 (#) : 태그에다가 고유한 id 값을 부여해서 선택
+  
+  * class 선택자 (.) : 태그에 class 값을 부여해서 선
+
+* Font 관련 style
+
+<img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/CSS_img/font.png">
+
 
