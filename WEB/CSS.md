@@ -1,3 +1,5 @@
+
+
 ### CSS
 
 * css (Cascading Style Sheet)
@@ -91,3 +93,15 @@
   * nth-child() : ~번째 자식
 
 <img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/CSS_img/selector.png">
+
+
+
+##### 동위 선택자
+
+* 동위 선택자 : 동위 관계에 있는 태그들을 선택할때 사용
+  
+  * 동위선택자a + 동위선택자b : a선택자를 통해 선택된 태그 바로 뒤에 있는 b선택자 태그만 선택
+  
+  * 동위선택자a~동위선택자b : a선택자를 기준으로 뒤에 오는 모든 b선택자에 해당하는 태그를 선택
+
+<img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/CSS_img/selector02.png">
