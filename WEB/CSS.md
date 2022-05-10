@@ -1,5 +1,3 @@
-
-
 ### CSS
 
 * css (Cascading Style Sheet)
@@ -94,8 +92,6 @@
 
 <img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/CSS_img/selector.png">
 
-
-
 ##### 동위 선택자
 
 * 동위 선택자 : 동위 관계에 있는 태그들을 선택할때 사용
@@ -105,3 +101,19 @@
   * 동위선택자a~동위선택자b : a선택자를 기준으로 뒤에 오는 모든 b선택자에 해당하는 태그를 선택
 
 <img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/CSS_img/selector02.png">
+
+
+
+##### 반응 선택자
+
+* 반응 선택자 : 사용자의 움직임에 따라서 달라지는 선택자
+  
+  * 선택자:active -> 사용자가 해당 태그에 마우스를 클릭했을때 선택이 됨.
+  
+  * 선택자:hover -> 마우스가 해당 요소 위에 올라가 있을 때 선택
+  
+  * 선택자:focus -> 해당 요소가 활성화된 상태이거나 클릭된 상태
+  
+  * 선택자:disabled -> 해당 요소가 비활성화된 상태라면
+  
+  * 선택자:checked -> 해당 요소가 체크되어있는 상태라
