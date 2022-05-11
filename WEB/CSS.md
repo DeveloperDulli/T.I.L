@@ -102,8 +102,6 @@
 
 <img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/CSS_img/selector02.png">
 
-
-
 ##### 반응 선택자
 
 * 반응 선택자 : 사용자의 움직임에 따라서 달라지는 선택자
@@ -116,4 +114,12 @@
   
   * 선택자:disabled -> 해당 요소가 비활성화된 상태라면
   
-  * 선택자:checked -> 해당 요소가 체크되어있는 상태라
+  * 선택자:checked -> 해당 요소가 체크되어있는 상태라면
+
+##### 종속
+
+* 일부 스타일 속성의 경우 무보의 속성이 자식의 속성에 영향을 미치는 '상속' 속성을 가짐
+  
+  * color, font, font-family, text-align 
+
+<img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/CSS_img/inheritance.png">
