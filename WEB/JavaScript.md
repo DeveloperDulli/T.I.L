@@ -55,3 +55,9 @@
 <img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/JavaScript_img/confirm.png">
 
 <img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/JavaScript_img/prompt.png">
+
+
+
+##### 함수
+
+* 함수의 생성 : 변환타입 x 매개변수의 자료형 x
