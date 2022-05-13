@@ -50,8 +50,8 @@
   
   * ex) promp("알림창");
   
-  <img title="" src="file:///C:/Users/김형석/Desktop/TIL/WEB/JavaScript_img/alert.png" alt="" width="305" data-align="inline">
-  
-  <img title="" src="file:///C:/Users/김형석/Desktop/TIL/WEB/JavaScript_img/confirm.png" alt="" width="309" data-align="inline">
-  
-  <img title="" src="file:///C:/Users/김형석/Desktop/TIL/WEB/JavaScript_img/prompt.png" alt="" width="311">
+  <img src = ""https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/JavaScript_img/alert.png">
+
+<img src = "(https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/JavaScript_img/confirm.png">
+
+<img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/JavaScript_img/prompt.png">
