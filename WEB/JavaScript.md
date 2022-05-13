@@ -49,9 +49,9 @@
   * 확인 누르면 입력값이 리턴 / 취소 누르면 null 값이 리턴
   
   * ex) promp("알림창");
-  
-  <img src = ""https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/JavaScript_img/alert.png">
 
-<img src = "(https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/JavaScript_img/confirm.png">
+<img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/JavaScript_img/alert.png">
+
+<img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/JavaScript_img/confirm.png">
 
 <img src = "https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/JavaScript_img/prompt.png">
