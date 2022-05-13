@@ -1,7 +1,5 @@
 ### JavaScript
 
-
-
 ##### JavaScript
 
 * 페이지에서 동적으로 요소를 다루고 변화시켜줄 수 있는 언어 (HTML로만 구성된 페이지는 정적인 페이지)
@@ -32,4 +30,28 @@
   
   * 다량의 요소를 찍어내거나, 특정한 상황에 따라서 동적인 변화를 주는게 다양해짐
 
-* 
+##### 내장 함수
+
+* alert : 브라우저에 기본적인 알림창을 띄워주는 함수, 인자값으로 넘긴 값이 랄림창 내용으로 들어감
+  
+  * alert("알림창");
+
+* confirm : 확인과 취소 버튼 두 개를 띄워주는 알림창
+  
+  * 확인을 누르면 true 값을, 취소를 누르면 false 값을 리턴
+  
+  * 탈퇴, 게시글 삭제, 댓글 삭제 -> 한번 더 사용자에게 확인하는 용도로 사용
+  
+  * ex) confirm("알림창");
+
+* prompt : 확인과 취소, 입력창을 띄워주는 알림창
+  
+  * 확인 누르면 입력값이 리턴 / 취소 누르면 null 값이 리턴
+  
+  * ex) promp("알림창");
+  
+  <img title="" src="file:///C:/Users/김형석/Desktop/TIL/WEB/JavaScript_img/alert.png" alt="" width="305" data-align="inline">
+  
+  <img title="" src="file:///C:/Users/김형석/Desktop/TIL/WEB/JavaScript_img/confirm.png" alt="" width="309" data-align="inline">
+  
+  <img title="" src="file:///C:/Users/김형석/Desktop/TIL/WEB/JavaScript_img/prompt.png" alt="" width="311">
