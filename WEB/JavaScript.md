@@ -80,6 +80,20 @@
 
 
 
+##### 자료형
+
+* 자바스크립트에서의 자료형
+  
+  * String, boolean, number, BigInt, null, Symbol, undefined
+  
+  * Symbol : 고유한 값을 만들고자 할 때 사용하는 자료형
+  
+  * undefined : 변수를 선언하고 그 변수에 값이 대입되지 않았을 경우 undefined가 default 값으로 잡힘
+  
+  * null : 값 자체가 없는 경우
+
+
+
 ##### 요소 선택
 
 * document 객체 : html 요소에 접근하는게 가능
