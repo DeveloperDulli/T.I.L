@@ -137,3 +137,31 @@
   * ex) btn.onclick = function(e){수행 코드} -> btn버튼에 click 이벤트가 발생했을 때 특정한 코드를 수행
   
   * ex) btn.addEventListner("이벤트명", function() {처리코드} ) -> btn 버튼에 이벤트를 했을 때 특정한 코드를 수행
+
+
+
+##### 배열
+
+* 다양한 타입(자료형)의 데이터의 모음
+  
+  * 배열을 생성할때 자료형을 지정하지 않음
+  
+  * 문자열, 숫자, boolean, undefined, 객체, 함수
+
+* 배열의 생성
+  
+  * ex) let arr = new Array(); , let arr = new Array(1,2,3);, let arr = [1, 2, 3];
+
+* 배열의 값 넣기
+  
+  * index 번호 활용 (0번부터 인덱스 번호 시작)
+  
+  * let arr = ["봄", 30, false, function(){console.log("call function!")}, [1, 2, 3]]
+  
+  * -> 배열안에 여러 자료형 가능
+
+* 배열 반복문
+  
+  * 자바의 foreach() 와 비슷하다 자바스크립트는 for..of
+  
+  * ex) for(let a of arr){console.log(e);} -> 처음부터 끝까지 출력
