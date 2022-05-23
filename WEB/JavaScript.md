@@ -206,4 +206,30 @@
 
 * shift() : 배열의 첫 인덱스 값 삭제
 
+* slice(인자1, 인자2) : 배열을 잘라서 반환해주는 함수(배열에 값이 잘려진 상태를 반환)
+  
+  * 인자1 = 시작 인데스 -> 시작 인덱스에서부터 데이터를 잘라서 자른 데이터를 배열로 만들어 반환
+  
+  * 인자2 = 끝 인덱스 -> 시작 인덱스에서부터 데이터를 끝 인덱스까지 모두 잘라버림
+  
+  * 원본 배열 영향 없음
+  
+  * ex) let data = ["apple", "banana", "mango", "watermelon", "grape"];
+  
+  * -> data.slice(1, 3);  -> banana , mango
+
+* splice(index, 제거수, [추가값]) -> 원본 배열에 영향을 줌
+  
+  * 시작 인덱스를 기준으로 해서 원하는 개수만큼 데이터를 제거할 수 있음
+  
+  * 세 번째 인자인 새로운 값을 추가하는 것도 가능한 함수
+  
+  * 시작 index : 해당 인덱스부터 값을 제거해라(만약 index 값만 인자로 넘겨주면 해당 인덱스부터 나머지 인덱스 데이터 모두 삭제)
+  
+  * 제거수 : 몇 개의 요소를 삭제할건지
+  
+  * ex) let data = ["apple", "banana", "mango", "watermelon", "grape"]; 
+  
+  * -> data.splice(2, 0, "melon") -> apple, banana, melon, mango, watermelon, grape
+
                 
