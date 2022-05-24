@@ -233,3 +233,13 @@
   * -> data.splice(2, 0, "melon") -> apple, banana, melon, mango, watermelon, grape
 
                 
+
+##### 코드의 실행 순서
+
+* 위에서부터 아래로 실행
+
+* window : 웹 브라우저의 모든 요소를 담는 객체
+
+* window.onload : 웹 브라우저의 모든 요소들이 준비가 완료됐을때 function의 코드실행
+  
+  * ex) window.onload = function(){}
