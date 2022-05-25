@@ -134,6 +134,8 @@
 
 * event handler(이벤트 처리자) : 특정한 이벤트가 감지됐을 때 그에 따른 처리코드를 수행하는 역할
   
+  * 버튼을 눌렀을때 기능 수행 예시
+  
   * ex) btn.onclick = function(e){수행 코드} -> btn버튼에 click 이벤트가 발생했을 때 특정한 코드를 수행
   
   * ex) btn.addEventListner("이벤트명", function() {처리코드} ) -> btn 버튼에 이벤트를 했을 때 특정한 코드를 수행
