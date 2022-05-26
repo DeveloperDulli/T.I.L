@@ -122,24 +122,6 @@
   
   * -> 다른 태그들은 innerHTML을 이용해 안에 있는 텍스트 값을 가져올 수 있음, html 요소를 추가하는 것도 가능, 스타일을 변경하는 것도 가능
 
-##### Event
-
-* event : 브라우저 안에서 사용자가 취하는 모든 액션 (클릭, hover, drag, 스크롤, 크기조절 등등)
-
-* call back function : 특정한 트리거(경우)가 있을때에만 호출되는 함수
-  
-  * 우리가 명시적으로 이벤트 관련 함수를 부른다고 호출이 되는게 아니라 특정한 이벤트가 일어났을때(클릭) 함수가 호출되는 것
-
-* event listener(이벤트 감시자) : 특정한 이벤트가 발생했을 때 그 이벤트를 감지
-
-* event handler(이벤트 처리자) : 특정한 이벤트가 감지됐을 때 그에 따른 처리코드를 수행하는 역할
-  
-  * 버튼을 눌렀을때 기능 수행 예시
-  
-  * ex) btn.onclick = function(e){수행 코드} -> btn버튼에 click 이벤트가 발생했을 때 특정한 코드를 수행
-  
-  * ex) btn.addEventListner("이벤트명", function() {처리코드} ) -> btn 버튼에 이벤트를 했을 때 특정한 코드를 수행
-
 ##### 배열
 
 * 다양한 타입(자료형)의 데이터의 모음
@@ -245,3 +227,45 @@
 * window.onload : 웹 브라우저의 모든 요소들이 준비가 완료됐을때 function의 코드실행
   
   * ex) window.onload = function(){}
+
+##### Event
+
+- event : 브라우저 안에서 사용자가 취하는 모든 액션 (클릭, hover, drag, 스크롤, 크기조절 등등)
+
+- call back function : 특정한 트리거(경우)가 있을때에만 호출되는 함수
+  
+  - 우리가 명시적으로 이벤트 관련 함수를 부른다고 호출이 되는게 아니라 특정한 이벤트가 일어났을때(클릭) 함수가 호출되는 것
+
+- event listener(이벤트 감시자) : 특정한 이벤트가 발생했을 때 그 이벤트를 감지
+
+- event handler(이벤트 처리자) : 특정한 이벤트가 감지됐을 때 그에 따른 처리코드를 수행하는 역할
+  
+  - 버튼을 눌렀을때 기능 수행 예시
+  
+  - ex) btn.onclick = function(e){수행 코드} -> btn버튼에 click 이벤트가 발생했을 때 특정한 코드를 수행
+  
+  - ex) btn.addEventListner("이벤트명", function() {처리코드} ) -> btn 버튼에 이벤트를 했을 때 특정한 코드를 수행
+
+- mouseenter, mouseleave
+  
+  - mouseenter : 요소에 마우스가 올라갔을 때의 순간만 감지
+    
+    - ex) 아이디값.addEventListener("mouseenter", function(){처리 코드;});
+  
+  - mouseleave : 마우스가 요소 밖으로 떠났을 때의 순간만 감지
+    
+    - ex) 아이디값.addEventListener("mouseenter", function(){처리 코드;});
+
+- 키보드 입력에 대한 이벤트 감지
+  
+  - keydown, keypress, keyup
+  
+  - keydown / keypress : 키보드를 입력하는 순간
+  
+  - keyup : 키보드 입력 후
+  
+  - ex) 아이디값.onkeyup = function(){처리코드;}; [다른것도 동일]
+  
+  - focus : input창에 커서가 깜빡이고 있는 상태
+  
+  - ex) 아이디값.onfocus = function(){처리 코드;}
