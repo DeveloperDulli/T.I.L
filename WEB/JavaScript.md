@@ -108,6 +108,25 @@
   
   * block level scope : 하나의 블록 내에서 선언한 변수는 그 블록 내에서만 공유되는 경우 (자바에서의 지역(변수)과 비슷한 개념)
 
+##### 자바스크립트 Object
+
+* 속성의 집합
+  
+  * property(속성) = 자바에서의 멤버필드
+  
+  * key, value의 형태 = 자바에서는 멤버필드명이 key 멤버필드에 셋팅된 값이 value
+  
+  * ex) 이름 : tom  /  나이 : 20
+
+* 객체 생성 / 사용법
+  
+  * 1. 객체 생성자
+  
+  <img src = "https://github.com/Hyung-Seok/T.I.L/blob/master/WEB/JavaScript_img/object.png">
+  
+  
+  
+
 ##### 요소 선택
 
 * document 객체 : html 요소에 접근하는게 가능
