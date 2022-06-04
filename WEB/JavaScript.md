@@ -1,3 +1,7 @@
+
+
+
+
 ### JavaScript
 
 ##### JavaScript
@@ -124,8 +128,35 @@
   
   <img src = "https://github.com/Hyung-Seok/T.I.L/blob/master/WEB/JavaScript_img/object.png">
   
+  * 2. 생성자 함수
   
+  <img title="" src="https://github.com/Hyung-Seok/T.I.L/blob/master/WEB/JavaScript_img/object02.png" alt="">
   
+  * 3. 객체 리터럴
+  
+  <img src = "https://github.com/Hyung-Seok/T.I.L/blob/master/WEB/JavaScript_img/object02.png">
+  
+  * 생성자 내부에서 가능한 작업
+    
+    * ex) id라는 key에 해당하는 값 가져오기, ["키이름"]
+  
+  <img src ="https://github.com/Hyung-Seok/T.I.L/blob/master/WEB/JavaScript_img/object03.png">
+  
+  * 생성자 내부의 age 변수 값 가져오기
+  
+  * 생성자 내부에서 선언한 일반 변수는 private 속성을 가져서 외부에서 접근이 불가
+  
+  <img src = "https://github.com/Hyung-Seok/T.I.L/blob/master/WEB/JavaScript_img/object04.png">
+  
+  * 리터럴 방식으로 속성에 함수 값 넣기
+  
+  <img src = "https://github.com/Hyung-Seok/T.I.L/blob/master/WEB/JavaScript_img/object05.png">
+  
+  * 이미 만들어진 객체에 새로운 속성 추가
+
+<img src = "https://github.com/Hyung-Seok/T.I.L/blob/master/WEB/JavaScript_img/object07.png">
+
+##### 
 
 ##### 요소 선택
 
