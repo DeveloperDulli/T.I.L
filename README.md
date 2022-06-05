@@ -31,3 +31,5 @@ Today I Learned
 * [HTML](https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/HTML.md) 
 * [CSS](https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/CSS.md)
 * [JavaScript](https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/JavaScript.md)
+* [JQuery](https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/JQuery.md)
+* 
