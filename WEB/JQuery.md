@@ -58,6 +58,18 @@
   
   * after() : 동위관계에 있어 요소의 뒤쪽에다가 요소를 추가
 
-           
-
-       
+* 부모_자식 관계
+  
+  * 자식 선택 대상요소.children() : 대상요소 기준으로 바로 아래 자식만 모두 선택
+  
+  * 선택자의 자식선택하여 css 속성주기
+  
+  * ex) 자식 선택 대상요소.children().css({"border":2px dotted grey, "width" : "300px"})
+  
+  * 대상요소의 바로 아래 자식 중에서 선택자에 해당하는 자식(첫번째 태그가 p태그인 자식만 선택)만 선택하여 css 속성주기
+  
+  * ex) 대상요소.children("태그:first-child").css({"border":2px dotted grey, "width" : "300px"})
+  
+  * 대상요소.find(선택자) : 대상요소를 기준으로 하위 요소 중 모든 선택자에 해당하는 요소를 모두 선택하여 css 속성주기
+  
+  * ex) 대상요소.find("태그").css({"background-color" : "pink"})
