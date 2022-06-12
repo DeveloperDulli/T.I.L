@@ -111,37 +111,39 @@
   * 인자2 - > 속도(fast, slow)
   
   * ex) 버튼 클릭시 div 가로, 세로 400px 천천히 늘어나게 하기
-  
+    
       $(documnet).ready(function(){
-      
+    
           $("대상요소").click(function(){
-      
+    
               $(대상요소).animate({
-      
+    
                   "width" : "400px",
-      
+    
                       "height" : "400px"
-      
+    
                           }, "slow");
-      
+    
                       })
-      
+    
       })
   
   * hide(seconds) : display none 의 속성을 적용, 초(seconds) 값으로 속도 조절(1000당 1초)
-  
-      $("선택자").click(function(){
-         $("선택자").hide(1000);
-              })
+    
+         $("선택자").click(function(){
+                 $("선택자").hide(1000);
+           })
   
   * show(seconds) : display block의 속성을 적용
-  
-       $("선택자").click(function(){
-                  $(".선택자).show(1000);
+    
+        $("선택자").click(function(){          
+              $("선택자").show(1000);
               })
   
   * toggle(seconds) : hide() + show() 동시 적용
-
-    $("#btnToggle").click(function(){
-       $(".innerDiv").toggle(1000);
-         })
+    
+        $("선택자").click(function(){ 
+            $("선택자").toggle(1000); })
+    
+    
+    
