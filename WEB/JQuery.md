@@ -144,6 +144,7 @@
     
         $("선택자").click(function(){ 
             $("선택자").toggle(1000); })
-    
-    
-    
+  
+  * slideDown( ) : display none 속성을 display block으로 변경
+  
+  * slideUp( ) : display none으로 변경
