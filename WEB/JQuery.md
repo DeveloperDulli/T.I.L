@@ -148,3 +148,9 @@
   * slideDown( ) : display none 속성을 display block으로 변경
   
   * slideUp( ) : display none으로 변경
+
+* 요소 변경
+  
+  * 대상요소.remove( ) : 요소 삭제 함수 -> 상위태그를 삭제하면 하위요소도 함께 삭제(모든 값 삭제)
+  
+  * 대상요소.empty( ) : 대상요소가 가지고 있는 모든 하위요소를 제거 (값 비우기) 
