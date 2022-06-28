@@ -37,3 +37,11 @@
     -> <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %> 
   
   * <c:forEach items = "for문을 돌릴 리스트/배열" var = "리스트/배열 각 인데스에 담겨있는 배열">
+
+* session
+  
+  * 클라이언트(웹 브라우저)가 서버에 접속하는 순간 (첫 요청값을 보내는 순간)
+  
+  * -> 서버가 지금 접속한 클라이언트에 대한 식별값을 하나 생성함(session id)
+  
+  * -> 서버는 식별 값을 이용해 HTTPSession 객체(저장소)를 생성
