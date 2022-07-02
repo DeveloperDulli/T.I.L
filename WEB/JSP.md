@@ -1,5 +1,9 @@
 ## JSP
 
+* JSP(Java Server Pages)
+  
+  * Dynamic 웹 페이지를 만들 수 있는 방법으로 제공하는 자바를 기반으로 하고 있는 스크립트 언어로 자바 엔터프라이즈 어플리케이션에서 UI 영역을 담당
+
 * MVC (Model View Controller) : 디자인 패턴(코드를 짜는 방식)
   
   * Model : DB와 연동해 CRUD 작업을 하는 객체 -> DAO
