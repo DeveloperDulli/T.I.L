@@ -22,6 +22,10 @@
     
     8. 브라우저에 html 실행
 
+* 서블릿(Servlet)
+  
+  * 서블릿은 java라는 언어로 웹 프로그램을 만들기 위한 기술로 웹 프로그래밍에서 클라이언트의 요청 request를 처리하고 그 결과를 다시 클라이언트에게 응답 response하는 클래스 -> MVC 모델에서 Controller 역
+
 * MVC (Model View Controller) : 디자인 패턴(코드를 짜는 방식)
   
   * Model : DB와 연동해 CRUD 작업을 하는 객체 -> DAO
