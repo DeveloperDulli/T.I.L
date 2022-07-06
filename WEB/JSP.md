@@ -24,7 +24,10 @@
 
 * 서블릿(Servlet)
   
-  * 서블릿은 java라는 언어로 웹 프로그램을 만들기 위한 기술로 웹 프로그래밍에서 클라이언트의 요청 request를 처리하고 그 결과를 다시 클라이언트에게 응답 response하는 클래스 -> MVC 모델에서 Controller 역
+  * 서블릿은 java라는 언어로 웹 프로그램을 만들기 위한 기술로 웹 프로그래밍에서 클라이언트의 요청 request를 처리하고 그 결과를 다시 클라이언트에게 응답 response하는 클래스 -> MVC 모델에서 Controller 역할
+  * 서블릿은 자바파일이라 웹 브라우저에 보여줄 수 있는 리소스가 아니기 때문에 웹에서 접근 가능한 형태(url, uri)로 접근하기 위해 서블릿과 url을 연결해주는 url 매핑이 필수 
+
+:collision: MVC 모델에서 서블릿은 controller 역할, jsp는 view 역할
 
 * MVC (Model View Controller) : 디자인 패턴(코드를 짜는 방식)
   
