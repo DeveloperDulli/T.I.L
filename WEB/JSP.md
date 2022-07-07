@@ -29,6 +29,8 @@
 
 :collision: MVC 모델에서 서블릿은 controller 역할, jsp는 view 역할
 
+
+
 * MVC (Model View Controller) : 디자인 패턴(코드를 짜는 방식)
   
   * Model : DB와 연동해 CRUD 작업을 하는 객체 -> DAO
