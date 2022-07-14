@@ -112,6 +112,26 @@
   
   * scope : 조건 결과를 저장할 변수의 저장 scope를 지정
 
+* JSTL 조건문
+  
+  * <c:choose>, <c:when>, <c:otherwise>
+  
+  * <c:choose> 어떠한 속성도 없음
+  
+  * <c:when> 아래에 나열된 하나의 속성이 있음
+  
+  * <c:otherwise> 어떠한 속성도 없음
+  
+  * ex) <c:choose><c:when test = "조건"></c:when><c:otherwise>조건이 아닐때</c:otherwise></c:choose>
+
+* JSTL 비교수식
+  
+  * eq : 비교하는 값이 동일한지 확인 (==)
+  
+  * ne : 비교하는 값이 동일하지 않은지 확인할 때 사용(!=)
+  
+  * empty : 비교하는 값이 null 인지 확인할때 사용, null이 아닌경우는 !empty로 표현
+
 * session
   
   * 클라이언트(웹 브라우저)가 서버에 접속하는 순간 (첫 요청값을 보내는 순간)
