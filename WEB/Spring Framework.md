@@ -95,3 +95,11 @@
   * Controller를 통해 모델에 데이터에 대한 시각화를 담당하며 View는 자신이 요청을 보낼 Controller의 정보만 알고 있어야 하는 것이 핵심
   
   * Model이 가지고 있는 정보를 저장해서는 안되며 Model, Controller에 구성 요소를 알아서는 안됨
+  
+  * Controller -> View에 받은 요청을 가공하여 Model(Service 영역)에 전달
+  
+  * 또한 Model로부터 받은 결과를 View로 넘겨주는 역할을 함
+  
+  * 모든 요청 에러와 모델 에러를 처리하며 View와 Controller에 정보를 알고 있어야 함
+  
+  * Model과 View의 정보에 대해 알고 있어야 함
