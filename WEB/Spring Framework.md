@@ -114,4 +114,8 @@
   
   * View의 정보가 달라지더라도 Controller에서 Service에 넘겨줄 매개변수 데이터 가공만 처리하면 되기때문에 유지보수 비용을 절감 할 수 있는 효과가 있음
   
-  * 또한, Service영역의 재사용이 용이하기 때문에 확장성 부분에서도 큰 효과를 볼 수 있는 장점
+  * 또한, Service영역의 재사용이 용이하기 때문에 확장성 부분에서도 큰 효과를 볼 수 있는 장점이 있음
+
+* Spring Core
+  
+  * Spring Core는 Spring Container을 의미합니다. core라는 말 그대로 Container는 Spring Framework의 핵심이며 그중 핵심은 Bean Factory Container입니다. 그 이유는 바로 Bean Factory는 IOC패턴을 적용하여 객체 구성부터 의존성 처리까지 모든 일을 처리하는 역할을 하고 있기 때문
