@@ -119,3 +119,9 @@
 * Spring Core
   
   * Spring Core는 Spring Container을 의미합니다. core라는 말 그대로 Container는 Spring Framework의 핵심이며 그중 핵심은 Bean Factory Container입니다. 그 이유는 바로 Bean Factory는 IOC패턴을 적용하여 객체 구성부터 의존성 처리까지 모든 일을 처리하는 역할을 하고 있기 때문
+
+* Spring Context
+  
+  * Spring context는 Spring Framework의 context 정보들을 제공하는 설정 파일
+  
+  * Spring context는 JNDI, EJB, Validation, Scheduiling, Internalization 등 엔터프라이즈 서비스들을 포함
