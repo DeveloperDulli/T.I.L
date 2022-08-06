@@ -125,3 +125,9 @@
   * Spring context는 Spring Framework의 context 정보들을 제공하는 설정 파일
   
   * Spring context는 JNDI, EJB, Validation, Scheduiling, Internalization 등 엔터프라이즈 서비스들을 포함
+
+* Spring AOP
+  
+  * Spring AOP module은 Spring Framework에서 관점지향 프로그래밍을 할 수 있고 AOP를 적용할 수 있게 도와주는 Module
+  
+  * 
