@@ -135,3 +135,9 @@
   * DAO란 Data Access Object의 약자로 Database Data에 접근하는 객체
   
   * Spring JDBC DAO는 추상 레이어를 지원함으로써 코딩이나 예외처리 하는 부분을 간편화 시켜 일관된 방법으로 코드를 짤 수 있게 도와줌
+
+* Spring ORM
+  
+  * ORM이란 Object relational mapping의 약자로 간단하게 객체와의 관계 설정을 하는 것
+  
+  * Spring에서는 Ibatis, Hibernate, JDO 등 인기있는 객체 관계형 도구를 사용 할 수 있도록 지원
