@@ -141,3 +141,9 @@
   * ORM이란 Object relational mapping의 약자로 간단하게 객체와의 관계 설정을 하는 것
   
   * Spring에서는 Ibatis, Hibernate, JDO 등 인기있는 객체 관계형 도구를 사용 할 수 있도록 지원
+
+* Spring Web
+  
+  * Spring에서 Web  context module은 Application module에 내장되어 있고 Web기반의 응용프로그램에 대한 Context를 제공하여 일반적인 Web Application 개발에 필요한 기본적인 기능 지원
+  
+  * Jakarta Structs와의 통합을 지원
