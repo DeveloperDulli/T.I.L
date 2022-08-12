@@ -147,3 +147,11 @@
   * Spring에서 Web  context module은 Application module에 내장되어 있고 Web기반의 응용프로그램에 대한 Context를 제공하여 일반적인 Web Application 개발에 필요한 기본적인 기능 지원
   
   * Jakarta Structs와의 통합을 지원
+
+* Spring MVC
+  
+  * Spring에서는 MVC Model2 구조로 Application을 만들 수 있도록 지원
+  
+  * MVC 프레임워크는 웹 응용 프로그램을 작성하기 위한 완전한 기능을 갖춘 MVC를 구현
+  
+  * MVC 프레임워크는 전략 인터페이스를 통해 고급 구성 가능하며 JSP, Velocity, Tiles, iText 및 POI를 포함한 수많은 뷰 기술 지원
