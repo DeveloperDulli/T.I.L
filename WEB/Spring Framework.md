@@ -88,13 +88,13 @@
   
   * 또한 Model 부분의 Service는 view에 종속적인 코드가 없어야 하고 View 부분이 변경되더라도 Service 부분은 그대로 재사용 할 수 있어야 함
   
-  * Model에서는 View와 Controller 어떠한 정보도 가지고 있어서는 안됨
+  * <span style="color:red">Model에서는 View와 Controller 어떠한 정보도 가지고 있어서는 안됨</span>
   
   * View -> 사용자 Interface를 담당하며 사용자에게 보여지는 부분
   
   * Controller를 통해 모델에 데이터에 대한 시각화를 담당하며 View는 자신이 요청을 보낼 Controller의 정보만 알고 있어야 하는 것이 핵심
   
-  * Model이 가지고 있는 정보를 저장해서는 안되며 Model, Controller에 구성 요소를 알아서는 안됨
+  * <span style="color:red">Model이 가지고 있는 정보를 저장해서는 안되며 Model, Controller에 구성 요소를 알아서는 안됨</span>
   
   * Controller -> View에 받은 요청을 가공하여 Model(Service 영역)에 전달
   
@@ -102,7 +102,7 @@
   
   * 모든 요청 에러와 모델 에러를 처리하며 View와 Controller에 정보를 알고 있어야 함
   
-  * Model과 View의 정보에 대해 알고 있어야 함
+  * <span style="color:red">Model과 View의 정보에 대해 알고 있어야 함</span>
 
 * 결론
   
