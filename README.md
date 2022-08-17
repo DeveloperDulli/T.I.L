@@ -33,5 +33,10 @@ Today I Learned
 * [JavaScript](https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/JavaScript.md)
 * [JQuery](https://github.com/DeveloperDulli/T.I.L/blob/master/WEB/JQuery.md)
 * [JSP](https://github.com/Hyung-Seok/T.I.L/blob/master/WEB/JSP.md)
-* [Server](https://github.com/Hyung-Seok/T.I.L/blob/master/WEB/Server.md)
 * [Spring Framework](https://github.com/Hyung-Seok/T.I.L/blob/master/WEB/Spring%20Framework.md) 
+
+## Server
+
+* [Tomcat](https://github.com/Hyung-Seok/T.I.L/blob/master/WEB/Tomcat.md)
+
+* [AWS](https://github.com/Hyung-Seok/T.I.L/blob/master/WEB/AWS.md)
