@@ -37,6 +37,6 @@ Today I Learned
 
 ## Server
 
-* [Tomcat](https://github.com/Hyung-Seok/T.I.L/blob/master/WEB/Tomcat.md)
+* [Tomcat](https://github.com/Hyung-Seok/T.I.L/blob/master/Server/Tomcat.md)
 
-* [AWS](https://github.com/Hyung-Seok/T.I.L/blob/master/WEB/AWS.md)
+* [AWS](https://github.com/Hyung-Seok/T.I.L/blob/master/Server/AWS.md)
