@@ -72,7 +72,7 @@
 
 * EC2 콘솔에 들어오면 리소스에 아래와 같은 화면이 뜸
 
-<img src = "">
+<img title="" src="https://github.com/Hyung-Seok/T.I.L/blob/master/Server/images/EC2.png" alt="">
 
 * 1) Software configuration
      
