@@ -67,3 +67,21 @@
   * 아마존 오로라, mysql, 마리아DB, PostgreSQL, Oracle 서버등을 지원
   
   * DynamoDB : AWS의 NoSQL 데이터베이스 서비스
+
+### EC2 서버
+
+* EC2 콘솔에 들어오면 리소스에 아래와 같은 화면이 뜸
+
+<img src = "">
+
+* 1) Software configuration
+     
+     AMI(Amazon Machine Image) 는 소프트웨어 설정 탬플릿
+     
+     소프트웨어 구성(운영 체제, 애플리케이션 서버, 애플리케이션) 을 선택할 수 있는 단계
+     
+     * 루트 디바이스 유형 : ebs
+     
+     * 가상화 유형 : hvm
+     
+     * ENA 활성화 : y/n
