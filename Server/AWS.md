@@ -74,14 +74,14 @@
 
 <img title="" src="https://github.com/Hyung-Seok/T.I.L/blob/master/Server/images/EC2.png" alt="">
 
-* 1) Software configuration
-     
-     AMI(Amazon Machine Image) 는 소프트웨어 설정 탬플릿
-     
-     소프트웨어 구성(운영 체제, 애플리케이션 서버, 애플리케이션) 을 선택할 수 있는 단계
-     
-     * 루트 디바이스 유형 : ebs
-     
-     * 가상화 유형 : hvm
-     
-     * ENA 활성화 : y/n
+* 1. Software configuration
+  
+  AMI(Amazon Machine Image) 는 소프트웨어 설정 탬플릿
+  
+  소프트웨어 구성(운영 체제, 애플리케이션 서버, 애플리케이션) 을 선택할 수 있는 단계
+  
+  * 루트 디바이스 유형 : ebs
+  
+  * 가상화 유형 : hvm
+  
+  * ENA 활성화 : y/n
