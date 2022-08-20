@@ -57,3 +57,13 @@
   * 스냅삿의 ID를 입력하여 스냅샷에 저장된 데이터를 사용하여 새 볼륨 만들 수 있음
   
   * 스냅샷 필드에 텍스트를 입력하여 퍼블릭 스냅샷을 검색
+
+#### RDS
+
+* Relational Database Service
+  
+  * RDBMS 클라우드 서비스
+  
+  * 아마존 오로라, mysql, 마리아DB, PostgreSQL, Oracle 서버등을 지원
+  
+  * DynamoDB : AWS의 NoSQL 데이터베이스 서비스
