@@ -74,7 +74,7 @@
 
 <img title="" src="https://github.com/Hyung-Seok/T.I.L/blob/master/Server/images/EC2.png" alt="">
 
-* 1. Software configuration
+* Software configuration
   
   AMI(Amazon Machine Image) 는 소프트웨어 설정 탬플릿
   
@@ -85,3 +85,9 @@
   * 가상화 유형 : hvm
   
   * ENA 활성화 : y/n
+
+* instance type
+  
+  * 해당 단계에서 CPU, 메모리, 스토리지 등 하드웨어적인 부분과 네트워크 용량 조합을 선택할 수 있음
+  
+  * instance type 을 눌러보면 general purpose, compute/memory/storage/optimized 혹은 GPU instance 등으로 나눌 수 있음
